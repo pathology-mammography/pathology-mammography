@@ -7,7 +7,7 @@ This algorithm is not for a diagnostic use.
 ## Install
 
 - Clone this repository.
-- Download a hdf5 file (best-performing.hdf5).
+- Download a hdf5 file (best-performing.hdf5) into the dorectory of "h5files".
 
 hdf5 file can be downloaded from:
 https://github.com/pathology-mammography/pathology-mammography/releases
