@@ -1,5 +1,5 @@
 # Pathological subtype classification of ductal carcinoma with no special type by mammography
-This algorthm was based on VGGNet to classify ductal carcinoma with no special type of breast cancer in mammograms.
+This algorthm was based on VGGNet to classify ductal carcinoma with no special type of breast cancer into tubule forming type, solid type, and scirrhous type on mammograms.
 
 You can use this algorithm after downloaded hdf5 file from release page.
 This algorithm is not for a diagnostic use.
