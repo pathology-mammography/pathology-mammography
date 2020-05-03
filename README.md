@@ -14,12 +14,13 @@ https://github.com/pathology-mammography/pathology-mammography/releases
 
 
 ## Usage
-`python SGD.py` in the directory of "code". 
+Training: `python SGD.py` in the directory of "code". 
+Inference: `python prediction.py` in the directory of "code". 
 
 ## Enviroment
 This algorithm was built in the TensorFlow framework (https://www.tensorflow.org/) with the Keras wrapper library (https://keras.io/).
 
-- tensorflow-gpu 1.10.1
+- tensorflow-gpu 1.10.0
 - Keras 2.2.4
 
 ## Research paper
