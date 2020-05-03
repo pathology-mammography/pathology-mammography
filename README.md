@@ -15,6 +15,7 @@ https://github.com/pathology-mammography/pathology-mammography/releases
 
 ## Usage
 Training: `python SGD.py` in the directory of "code". 
+
 Inference: `python prediction.py` in the directory of "code". 
 
 ## Enviroment
