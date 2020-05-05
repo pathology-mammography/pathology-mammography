@@ -1,5 +1,5 @@
 # Pathological subtype classification of ductal carcinoma with no special type by mammography
-This algorthm was based on VGGNet to classify ductal carcinoma with no special type of breast cancer in mammograms.
+This algorthm was based on VGGNet to classify ductal carcinoma with no special type of breast cancer into tubule forming type, solid type, and scirrhous type on mammograms.
 
 You can use this algorithm after downloaded hdf5 file from release page.
 This algorithm is not for a diagnostic use.
@@ -14,12 +14,14 @@ https://github.com/pathology-mammography/pathology-mammography/releases
 
 
 ## Usage
-`python SGD.py` in the directory of "code". 
+Training: `python SGD.py` in the directory of "code". 
+
+Inference: `python predict.py` in the directory of "code". 
 
 ## Enviroment
 This algorithm was built in the TensorFlow framework (https://www.tensorflow.org/) with the Keras wrapper library (https://keras.io/).
 
-- tensorflow-gpu 1.10.1
+- tensorflow-gpu 1.10.0
 - Keras 2.2.4
 
 ## Research paper
